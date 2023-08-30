@@ -1,0 +1,286 @@
+/* Things that apply to all the whole website */
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bebas+Neue&family=Fraunces:wght@100&family=Roboto:wght@100&family=Ubuntu+Condensed&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: Amatic SC;
+
+}
+
+
+body{
+    background-color: rgb(51, 51, 51);
+    
+}
+
+*{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Home Page  */
+
+/* Naviation Bar */
+
+
+/* Code from GitHub for the introduction to my website */
+
+.intro{
+    background: black;
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider{
+    background: rgb(49, 49, 49);
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    transform: translateY(100%);
+}
+
+
+.intro-text{
+    color: rgb(227,242,255);
+    font-size: 3rem;
+}
+/* This section is for hiding the text in the middle at the start of the intro  */
+.hide {
+    background:black;
+    overflow: hidden;
+}
+
+.hide span {
+    transform: translateY(100%);
+    display: inline-block;
+}
+/* End of code from gitHub for the introduction to my website */
+
+.rubik img{
+
+    width: 75px;
+    margin-top: -1px ;
+    margin-bottom: -10px;
+}
+
+.main-nav{
+    display: inline-flex;
+    margin: 50px;
+}
+
+.main-nav li{
+    display: inline;
+    list-style: none;
+    margin: 0 130px;
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.main-nav li a:link{
+    color: rgb(255, 255, 255);
+} 
+
+.main-nav li a:visited{
+    color: rgb(255, 255, 255)
+}
+
+/* Front page information and pictures */
+
+.info{
+    position: absolute;
+    color:white;
+    margin-left: 1350px;
+    margin-top: 100px;
+    font-size: 30px;
+}
+
+.exp{
+    font-size: 22px;
+}
+
+
+.background {
+    float: left;
+    margin-left: -1100px;
+    margin-top: -30px;
+    width: 900px;
+    height: 500px;   
+}
+
+.Google img{
+    margin-top: 30px;
+    width:50px;
+    height:50px;
+}
+
+.Facebook img{
+    width: 70px;
+    height: 70px;
+    margin-left: -10px;
+}
+
+.Graze img{
+    margin-top: 5px;
+    width:100px
+}
+
+/* Footer  */
+
+.footer{
+    position:fixed;
+    margin-top: 650px;
+    width:100vw;
+    display: block;
+    overflow:hidden; 
+    padding: 50px 0;
+    box-sizing: border-box;
+    background-color: #18181a;
+}
+#footer_text{
+    margin:0 10px;
+    margin-top: -40px;
+    color: white;
+}
+
+ .inner footer{
+    display: block;
+    margin: 0 auto;
+    width: 1100px;
+    height: 100%;
+} 
+
+
+.inner_footer .logo_container img{
+    width: 80px;
+    height: auto;
+    margin: 15px;
+}
+
+
+/* About Page  */
+
+.expri{
+    color: white;
+    margin-left: 600px;
+    margin-top: 100px;
+}
+
+.about{
+    color: white;
+    font-size: 15px;
+    margin-left: 600px;
+    margin-top: 150px;
+}
+
+.fbook{
+    width:150px;
+    height:150px;
+    margin-left: -400px;
+
+}
+
+.goo{
+    width:100px;
+    height:100px;
+    margin-left: 550px;
+    margin-top: 100px;
+}
+
+.gra{
+    width:200px;
+    height:75px;
+    margin-left:700px ;
+}
+
+/* Portfolio Page */
+.yt_video{
+    margin-left: 500px;
+    margin-top: 100px;
+
+}
+
+.portfolio{
+    color: white;
+    margin-top: 30px;
+    margin-left: 500px;
+}
+
+.youtube_vid{
+    margin-left: 500px;
+    margin-top: 100px;
+}
+.information{
+    color: white;
+    margin-top: 30px;
+    margin-left: 500px;
+
+}
+
+/* Contact Page */
+
+.contact h1{
+    font-size: 75px;
+    text-align: center;
+    color: white;
+}
+
+.border{
+    width: 100px;
+    height: 10px;
+    margin: 40px auto;
+}
+
+.contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding:  0 10px;
+    overflow: hidden;
+}
+
+.contact-form-text{
+    font-size: 30px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin:16px 0;
+    border: 0;
+    background:rgb(41, 40, 40);
+    padding: 20px 40px;
+    outline: none;
+    color: white;
+    transition: 0.5s;
+}
+
+.contact-form-text:focus{
+    box-shadow: 0 0 10px 4px rgb(86, 86, 104);
+} 
+
+textarea.contact-form-text{
+    resize: none;
+    height: 120px;
+}
+
+.contact-form-btn{
+    float: right;
+    border: 0;
+    background:rgb(86, 86, 104);
+    color: white;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.contact-form-btn:hover{
+    background:rgb(117, 117, 168)(86, 86, 104)
+}
